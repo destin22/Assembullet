@@ -1,0 +1,22 @@
+Start:
+vars:
+num1
+num2
+Code:
+mov call,1
+mov printer,please enter the first number to be added
+call
+inp num1
+mov call,1
+mov printer,please enter the second number to be added
+call
+inp num2
+add num1,num2
+mov call,1
+mov printer,Your Sum is
+call
+mov call,1
+mov printer,num1
+call
+mov call,0
+call

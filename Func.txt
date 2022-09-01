@@ -1,0 +1,14 @@
+Start:
+vars:
+text
+Code:
+set text,youve entered the function
+func myMethod
+mov call,1
+mov printer,text
+call
+endFunc
+mov call,myMethod
+call
+mov call,0
+call

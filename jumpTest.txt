@@ -1,0 +1,11 @@
+Start:
+Code:
+mov call,1
+mov printer, i will
+call
+mov call,1
+mov printer, repeat myself
+call
+jmp 0
+mov call,0
+call

@@ -1,0 +1,10 @@
+Start:
+vars:
+text
+Code:
+set text,Hello World!
+mov call,1
+mov printer,text
+call
+mov call,0
+call
